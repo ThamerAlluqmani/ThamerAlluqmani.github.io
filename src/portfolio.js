@@ -128,8 +128,8 @@ const educationInfo = {
       logo: require("./assets/images/JUC_LOGO.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2018 - Expected 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Leader of Cybersecurity Club and Member of Computer science Club",
+      descBullets: ["Organized a CTF competition in the collage", "Presented an Introduction to Web Development in Computer science Club" , "Presented an Introduction to CTF competition in Cybersecurity club"]
     }
   ]
 };
@@ -161,29 +161,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Full-stack Developer",
+      company: "Shaguf E-learning platform",
+      companylogo: require("./assets/images/Shaguf.svg"),
+      date: "Mars 2022 – Present",
+      desc: "Responsible for implementing visual and interactive elements that users engage with through the platform using HTML5 , CSS3, JQuery, Bootstrap 5",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full-stack Developer Intern",
+      company: "Tif Company",
+      companylogo: require("./assets/images/TIF_LOGO.png"),
+      date: "June 2021 – September 2021",
+      desc: "Designed and built various websites using Vue.js, Laravel, MYSQL, JQuery, Bootstrap 5"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web development manager",
+      company: "SEMI",
+      companylogo: require("./assets/images/SEMI.png"),
+      date: "Feb 2022 – Present",
+      desc: "Responsible for delivering a full-service website, provide guidance on web issues, and lead a team of web developers and UI/UX designers."
     }
   ]
 };
@@ -226,7 +222,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
