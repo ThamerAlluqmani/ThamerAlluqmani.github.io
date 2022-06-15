@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Thamer Alluqmani",
+  username: "Thamer Alluwqmani",
   title: "Hi all, I'm Thamer",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Vuejs / PHP and some other cool libraries and frameworks."
@@ -124,7 +124,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
   {
-      schoolName: "Jubail collage University",
+      schoolName: "Jubail University College",
       logo: require("./assets/images/JUC_LOGO.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2018 - Expected 2023",
@@ -161,14 +161,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full-stack Developer",
+      role: "Full-stack web Developer",
       company: "Shaguf E-learning platform",
-      companylogo: require("./assets/images/Shaguf.svg"),
+      companylogo: require("./assets/images/Shaguf.png"),
       date: "Mars 2022 – Present",
       desc: "Responsible for implementing visual and interactive elements that users engage with through the platform using HTML5 , CSS3, JQuery, Bootstrap 5",
     },
     {
-      role: "Full-stack Developer Intern",
+      role: "Full-stack web Developer Intern",
       company: "Tif Company",
       companylogo: require("./assets/images/TIF_LOGO.png"),
       date: "June 2021 – September 2021",
@@ -177,7 +177,7 @@ const workExperiences = {
     {
       role: "Web development manager",
       company: "SEMI",
-      companylogo: require("./assets/images/SEMI.png"),
+      companylogo: require("./assets/images/Semi Avatar v0.2.jpg"),
       date: "Feb 2022 – Present",
       desc: "Responsible for delivering a full-service website, provide guidance on web issues, and lead a team of web developers and UI/UX designers."
     }
@@ -200,29 +200,29 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Santiago resturant",
+      projectDesc: "Santiago resturant is a Front-end website that I built using Vue.js Framework. also, I used many technologies like SPA and PWA to make the app better",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://santiago-resturant.web.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Edhhah blog",
+      projectDesc: "Edhhah is a blog I built using Vue.js framework as the front-end and firebase as the back-end. also, I used many technologies like SPA and PWA to make the app better",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://blog-5ef6b.web.app/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -235,47 +235,53 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "TryHackMe - Web Fundamentals Learning path",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Completed Certification from TryHackMe for understanding web application security.",
+      image: require("./assets/images/the-ciacon.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1HAJ9IPDUBDFehnolGz8Tj9GB8IHztOXt/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "TryHackMe - Pre Security Learning Path",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Completed Certification from TryHackMe for understanding the basics of Networking and Cyber security.",
+      image: require("./assets/images/the-ciacon.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1hKJjWDy4GZ95YdI71fXxYU-I1BK2kdx-/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Vue.js Developer",
+      subtitle:
+        "Completed Certification from FlexCourses for Vue.js framework.",
+      image: require("./assets/images/QlrKARXY_400x400.jpg"),
       footerLink: [
-        {name: "Certification", url: ""},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1-SJ3nHib-u0OfwL3XppO9eBbF1XaH9NX/view?usp=sharing"
+        }
+      ]
+    },
+
+
+    {
+      title: "Laravel Developer",
+      subtitle: "Completed Certifcation from FlexCourses for Laravel framework.",
+      image: require("./assets/images/QlrKARXY_400x400.jpg"),
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1LbMoI8_IGHK4tXePbQp4g4HCC5hx-U5B/view?usp=sharing"},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://github.com/ThamerAlluqmani/Byrgenwerth"
         }
       ]
     }
@@ -304,7 +310,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -323,7 +329,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -336,21 +342,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+966-531652858",
+  email_address: "thamer.allogmani@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "thamer9900", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
