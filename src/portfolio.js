@@ -163,14 +163,14 @@ const workExperiences = {
     {
       role: "Full-stack web Developer",
       company: "Shaguf E-learning platform",
-      companylogo: require("./assets/images/Shaguf.png"),
+      companylogo: require("./assets/images/1625002574550.jfif"),
       date: "Mars 2022 – Present",
       desc: "Responsible for implementing visual and interactive elements that users engage with through the platform using HTML5 , CSS3, JQuery, Bootstrap 5",
     },
     {
       role: "Full-stack web Developer Intern",
       company: "Tif Company",
-      companylogo: require("./assets/images/TIF_LOGO.png"),
+      companylogo: require("./assets/images/TIF_LOGO.jpg"),
       date: "June 2021 – September 2021",
       desc: "Designed and built various websites using Vue.js, Laravel, MYSQL, JQuery, Bootstrap 5"
     },
@@ -188,8 +188,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -199,7 +199,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/santiago.png"),
       projectName: "Santiago resturant",
       projectDesc: "Santiago resturant is a Front-end website that I built using Vue.js Framework. also, I used many technologies like SPA and PWA to make the app better",
       footerLink: [
@@ -211,7 +211,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/edhhah.jpg"),
       projectName: "Edhhah blog",
       projectDesc: "Edhhah is a blog I built using Vue.js framework as the front-end and firebase as the back-end. also, I used many technologies like SPA and PWA to make the app better",
       footerLink: [
