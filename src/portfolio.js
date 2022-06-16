@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/ThamerAlluqmani",
   linkedin: "https://www.linkedin.com/in/thameralluqmani/",
   gmail: "thamer.allogmani@gmail.com",
-  Twitter: "https://twitter.com/thamer9900",
+  twitter: "https://twitter.com/thamer9900",
   stackoverflow: "https://stackoverflow.com/users/14841020/thamer-alluqmani",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -165,14 +165,14 @@ const workExperiences = {
       company: "Shaguf E-learning platform",
       companylogo: require("./assets/images/1625002574550.jfif"),
       date: "Mars 2022 – Present",
-      desc: "Responsible for implementing visual and interactive elements that users engage with through the platform using HTML5 , CSS3, JQuery, Bootstrap 5",
+      desc: "Responsible for implementing visual and interactive elements that users engage with through the platform using HTML5, CSS3, JQuery and Bootstrap 5",
     },
     {
       role: "Full-stack web Developer Intern",
       company: "Tif Company",
       companylogo: require("./assets/images/TIF_LOGO.jpg"),
       date: "June 2021 – September 2021",
-      desc: "Designed and built various websites using Vue.js, Laravel, MYSQL, JQuery, Bootstrap 5"
+      desc: "Designed and built various websites using Vue.js, Laravel, MYSQL, JQuery and Bootstrap 5"
     },
     {
       role: "Web development manager",
@@ -188,8 +188,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -235,7 +235,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "TryHackMe - Web Fundamentals Learning path",
+      title: "Web Fundamentals Learning path",
       subtitle:
         "Completed Certification from TryHackMe for understanding web application security.",
       image: require("./assets/images/the-ciacon.png"),
@@ -247,7 +247,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "TryHackMe - Pre Security Learning Path",
+      title: "Pre Security Learning Path",
       subtitle:
         "Completed Certification from TryHackMe for understanding the basics of Networking and Cyber security.",
       image: require("./assets/images/the-ciacon.png"),
@@ -357,7 +357,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "thamer9900", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {

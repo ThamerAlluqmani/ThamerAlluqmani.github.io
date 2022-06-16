@@ -61,12 +61,18 @@
 }
 
 .header .logo-name {
+  color: #0C73F0 !important;
   font-family: "Agustina Regular";
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+
+  &:hover{
+    color: #000;
+  }
 }
+
 
 /* menu */
 
