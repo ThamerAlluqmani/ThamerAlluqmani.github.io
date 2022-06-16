@@ -177,7 +177,7 @@ const workExperiences = {
     {
       role: "Web development manager",
       company: "SEMI",
-      companylogo: require("./assets/images/Semi Avatar v0.2.jpg"),
+      companylogo: require("./assets/images/Semi2.png"),
       date: "Feb 2022 – Present",
       desc: "Responsible for delivering a full-service website, provide guidance on web issues, and lead a team of web developers and UI/UX designers."
     }
